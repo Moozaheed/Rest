@@ -27,6 +27,8 @@ SET time_zone = "+00:00";
 -- Table structure for table `clients`
 --
 
+create database restaurant_website;
+
 CREATE TABLE `clients` (
   `client_id` int(5) NOT NULL,
   `client_name` varchar(50) NOT NULL,
@@ -241,7 +243,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `username`, `email`, `full_name`, `password`) VALUES
-(1, 'tusha', 'tusha@gmail.com', 'Tusha', '7110eda4d09e062aa5e4a390b0a572ac0d2c0220');
+(1, 'mozahed', 'moozaheed@gmail.com', 'G. M. Mozahed', 'd3c30a4f64ad52ac9954f02b2d253489850aaa2e');
 
 -- --------------------------------------------------------
 
